@@ -7,7 +7,10 @@ class Settings():
         self.ship_speed = 1.0
 
         # ustawienia obcych
-        self.alien_speed = 1.0
+        self.alien_speed = 0.1
+        self.fleet_drop_speed = 10
+        # 1 to prawo, -1 to lewo
+        self.fleet_direction = 1
 
         # ustawienia pocisku
         self.bullet_speed = 1.0
